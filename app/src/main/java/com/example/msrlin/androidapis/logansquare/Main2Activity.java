@@ -1,9 +1,9 @@
 package com.example.msrlin.androidapis.logansquare;
 
+import android.app.AlertDialog;
 import android.os.AsyncTask;
-import android.support.v7.app.AlertDialog;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
 import com.bluelinelabs.logansquare.LoganSquare;
@@ -226,7 +226,6 @@ public class Main2Activity extends AppCompatActivity {
 
     private String readFile(String filename) {
         StringBuilder sb = new StringBuilder();
-
         try {
             InputStream json = getAssets().open(filename);
             BufferedReader in = new BufferedReader(new InputStreamReader(json, "UTF-8"));
