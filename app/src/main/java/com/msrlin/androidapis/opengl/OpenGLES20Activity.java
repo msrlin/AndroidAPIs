@@ -12,7 +12,7 @@ public class OpenGLES20Activity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-       // mGLView = new MyGLSurfaceView(this);
-        setContentView(R.layout.activity_main4);
+        mGLView = new MyGLSurfaceView(this);
+        setContentView(mGLView);
     }
 }
