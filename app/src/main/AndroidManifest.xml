@@ -10,21 +10,24 @@
     <supports-gl-texture android:name="GL_OES_compressed_paletted_texture" />
 
     <application
+        android:name=".App"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".filechoosershare.MainActivity" />
-        <activity android:name=".logansquare.Main2Activity">
-        </activity>
+        <activity android:name=".logansquare.Main2Activity" />
         <activity android:name=".msrlin.logansquare.Main3Activity" />
-        <activity android:name=".opengl.OpenGLES20Activity">
-            <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
+        <activity android:name=".opengl.OpenGLES20Activity" />
+        <activity android:name=".view.textFly.Main5Activity"/>
 
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter>
+        <activity android:name=".scene.Main6Activity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
     </application>
 

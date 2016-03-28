@@ -1,4 +1,4 @@
-package com.msrlin.androidapis.progressbar;
+package com.msrlin.androidapis.view.progressbar;
 
 import android.content.Context;
 import android.content.res.TypedArray;

@@ -1,4 +1,4 @@
-package com.msrlin.androidapis.progressbar;
+package com.msrlin.androidapis.view.progressbar;
 
 /**
  * Created by lelexxx on 15-4-23.
