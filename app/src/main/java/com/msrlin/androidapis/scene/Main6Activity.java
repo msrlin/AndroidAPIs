@@ -36,7 +36,7 @@ public class Main6Activity extends AppCompatActivity {
                         inflateTransition(R.transition.fade_transition);
       //  Transition mFadeTransition = new Fade();
 
-        TransitionManager.go(mEndingScene, mFadeTransition);
+        TransitionManager.go(mAScene, mFadeTransition);
 
     }
 }

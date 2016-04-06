@@ -3,4 +3,6 @@
     <string name="value_prop">Welcome to the demo of LoganSquare! Just hit the "Parse Benchmark" or "Serialize Benchmark" button to see how our library stacks up against the library you\'re probably using now.</string>
     <string name="parse_benchmark">Parse Benchmark</string>
     <string name="serialize_benchmark">Serialize Benchmark</string>
+    <string name="crossfade">crossfade</string>
+    <string name="title_activity_screen_slide">ScreenSlideActivity</string>
 </resources>

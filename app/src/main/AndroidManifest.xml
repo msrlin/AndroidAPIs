@@ -20,12 +20,17 @@
         <activity android:name=".logansquare.Main2Activity" />
         <activity android:name=".msrlin.logansquare.Main3Activity" />
         <activity android:name=".opengl.OpenGLES20Activity" />
-        <activity android:name=".view.textFly.Main5Activity"/>
-
-        <activity android:name=".scene.Main6Activity">
+        <activity android:name=".view.textFly.Main5Activity" />
+        <activity android:name=".scene.Main6Activity" />
+        <activity android:name=".scene.Main7Activity" />
+        <activity android:name=".scene.Main9Activity" />
+        <activity android:name=".animations.CrossfadeActivity"></activity>
+        <activity
+            android:name=".animations.ScreenSlideActivity"
+            android:label="@string/title_activity_screen_slide"
+            android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
